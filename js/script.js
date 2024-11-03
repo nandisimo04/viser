@@ -21,18 +21,4 @@ var x = setInterval(function() {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "NEDEFINSANO";
   }
-
-  var AKK2 = new Date("Jan 1, 2025 23:59:00").getTime();
-
-  var distanceAKK2 = AKK2 - now;
-
-  var monthsAK2 = Math.floor(distanceAKK2 / (1000 * 60 * 60 * 24 * 30))
-  var weeksAK2 = Math.floor((distanceAKK2 % (1000 * 60 * 60 * 24 * 30)) / (1000 * 60 * 60 * 24 * 7))
-  var daysAK2 = Math.floor((distanceAKK2 % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
-
-  document.getElementById("demo1").innerHTML = monthsAK2 + "m " + weeksAK2 + "w " + daysAK2 + "d ";
-  if (distanceAKK2 < 0) {
-    clearInterval(x);
-    document.getElementById("demo1").innerHTML = "NEDEFINSANO";
-  }
 }, 1000);
