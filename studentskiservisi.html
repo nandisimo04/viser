@@ -3,10 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" href="./img/studservisi.ico">
+
     <title>Redirect</title>
 </head>
 <body>
     <a href="https://www.viser.edu.rs/student/login">Studentski servisi</a>  
     <!-- ssss -->
+     <script>
+    function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+    }
+    console.log('Hello');
+    sleep(500).then(() => { window.location.href = "https://www.viser.edu.rs/student/login";
+    });
+     </script>
 </body>
 </html>
