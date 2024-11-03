@@ -15,3 +15,22 @@ p {
     color:white;
     font-family: Arial, Helvetica, sans-serif; 
   }
+  .kolokvijumidiv {
+
+    display: block;
+    background-color: #e03e3e;
+    text-align: center;
+
+  }
+  .kolokvijumih1 {
+
+    display:inline;
+
+  }
+  .bodyobaveze {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin:0;
+    background-color: #eef1ff;
+  }
